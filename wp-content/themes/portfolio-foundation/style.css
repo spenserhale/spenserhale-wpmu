@@ -1,17 +1,12 @@
 /*
-Theme Name: Team Treehouse Portfolio Theme
+Theme Name: Portfolio Foundation Theme
 Author: Spenser Hale
 Author URI: http://www.spenserhale.com/
-Author: Treehouse
-Author URI: http://teamtreehouse.com/
-Description: A post modern, simple, responsive portfolio theme designed in WordPress Theme Development course at Treehouse.
+Description: A post modern, simple, responsive portfolio theme
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, white, light, one-column, two-columns, left-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images
-
-At Treehouse we believe that you should reach for your dreams.
-You are welcome to use this theme privately or commercially you want to help accomplish those dreams!
 */
 
 @-moz-keyframes logo-fade {
@@ -109,34 +104,34 @@ h1, h2, h3 {
     transition: opacity 200ms ease-in-out;
 }
 .social-links .icon.icon-twitter {
-    background: url(../img/icon-twitter.png?1398715010) no-repeat 0 0;
+    background: url(img/icon-twitter.png) no-repeat 0 0;
 }
 .social-links .icon.icon-facebook {
-    background: url(../img/icon-facebook.png?1398714906) no-repeat 0 0;
+    background: url(img/icon-facebook.png) no-repeat 0 0;
 }
 .social-links .icon.icon-google {
-    background: url(../img/icon-google.png?1398714980) no-repeat 0 0;
+    background: url(img/icon-google.png) no-repeat 0 0;
 }
 .social-links .icon.icon-tumblr {
-    background: url(../img/icon-tumblr.png?1398715559) no-repeat 0 0;
+    background: url(img/icon-tumblr.png) no-repeat 0 0;
 }
 .social-links .icon.icon-vimeo {
-    background: url(../img/icon-vimeo.png?1398715539) no-repeat 0 0;
+    background: url(img/icon-vimeo.png) no-repeat 0 0;
 }
 .social-links .icon.icon-youtube {
-    background: url(../img/icon-youtube.png?1398715038) no-repeat 0 0;
+    background: url(img/icon-youtube.png) no-repeat 0 0;
 }
 .social-links .icon.icon-linkedin {
-    background: url(../img/icon-linkedin.png?1398715654) no-repeat 0 0;
+    background: url(img/icon-linkedin.png) no-repeat 0 0;
 }
 .social-links .icon.icon-email {
-    background: url(../img/icon-email.png?1398715679) no-repeat 0 0;
+    background: url(img/icon-email.png) no-repeat 0 0;
 }
 .social-links .icon.icon-flickr {
-    background: url(../img/icon-flickr.png?1398714947) no-repeat 0 0;
+    background: url(img/icon-flickr.png) no-repeat 0 0;
 }
 .social-links .icon.icon-github {
-    background: url(../img/icon-octocat.png?1398715632) no-repeat 0 0;
+    background: url(img/icon-octocat.png) no-repeat 0 0;
 }
 
 header {
@@ -194,7 +189,6 @@ header h1 em {
     float: left;
     display: block;
     padding: 8px 20px;
-    display: none;
 }
 @media only screen and (min-width : 768px) {
     header h1 em {
@@ -316,7 +310,6 @@ nav .sub-menu a:hover {
     width: 40px;
     background: #384047;
     position: absolute;
-    display: block;
     content: "";
     left: 0;
     -webkit-border-radius: 2px;
@@ -718,7 +711,7 @@ article {
     border-top: 1px solid #edeff0;
 }
 article:last-child {
-    border-bottom: 0px;
+    border-bottom: 0;
 }
 
 .page-nav li {
